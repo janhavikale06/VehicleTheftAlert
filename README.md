@@ -1,5 +1,48 @@
-# VehicleTheftAlert
-VEHICLE THEFT ALERT &amp; ENGINE LOCK SYSTEM USING ARM7
+# VEHICLE THEFT ALERT AND ENGINE LOCK SYSTEM USING ARM7
 
-The theft alert system makes use of PIR Motion Sensor which detects the motion of objects and GSM (Global System for Mobile) which is embedded in the vehicle to communicate with the vehicle's owner's mobile phone. By using PIR Motion Sensor, we will detect theft and display the message as “Theft Detection!” on LCD. In GSM technology, the communication is established either by an SMS or calling but we prefer the communication via SMS (between GSM and the owner's mobile phone). The communication established include – Sending of an SMS by GSM to the owner's mobile phone to provide all information about the vehicle and vice-versa.
-In this system we are going to use two keys to open the vehicle lock, one is the owner’s key which is used by the owner and other is the direct key which is used by an unauthorized person. Whenever the direct key is used, the alarm becomes active and gives the beep sound which indicates that the thief is detected. At the same time a warning SMS is sent by GSM to the registered mobile number. After receiving the message, the vehicle’s owner sent a message to remotely lock the engine, after turning.
+## Overview:
+
+1. A system designed to prevent vehicle theft using advanced technology.
+2. Combines PIR Motion Sensor, GSM technology, and ARM7 microcontroller for efficient theft detection and prevention.
+
+## Components:
+
+1. PIR Motion Sensor: Detects motion around the vehicle. Triggers alert upon detecting unauthorized movement.
+2. GSM Module: Facilitates communication between the vehicle and the owner's mobile phone via SMS.
+3. ARM7 Microcontroller: A central processing unit that integrates all system components.
+4. LCD Display: Displays theft detection messages.
+5. Alarm System: Emits a beep sound to alert of unauthorized access.
+6. Two Keys:
+   a) Owner's Key: Authorized key for legitimate vehicle access.
+   b) Direct Key: Unauthorized key triggering the alarm and theft detection mechanism.
+
+## System Functionality:
+
+1. Theft Detection:
+   a) PIR Motion Sensor detects unauthorized motion near the vehicle.
+   b) LCDs "Theft Detection!" message.
+2. Alarm Activation:
+   a) When the direct key is used, the alarm system is activated.
+   b) A beep sound alerts surrounding individuals of potential theft.
+3. SMS Communication:
+   a) The GSM module sends an SMS to the vehicle owner's mobile phone upon detection of theft.
+   b) Provides real-time information about the vehicle's status.
+4. Engine Lock Mechanism:
+   a) Upon receiving the alert, the vehicle owner sends an SMS command to lock the vehicle’s engine remotely.
+   b) Ensures the thief cannot drive away with the vehicle.
+
+## Communication Process:
+
+1. Theft Detection Alert: PIR Motion Sensor detects movement. The GSM module sends an alert SMS to the registered mobile number.
+2. Owner Response: The owner receives the theft alert message. Sends a command SMS back to the GSM module to lock the engine.
+
+## Advantages:
+
+1. Real-time theft detection and alert system.
+2. Remote engine lock capability enhances vehicle security.
+3. Immediate response mechanism reduces the risk of vehicle theft.
+4. Audible alarm deters thieves and attracts attention from bystanders.
+
+## Conclusion:
+1. The Vehicle Theft Alert and Engine Lock System utilizing ARM7 is an effective solution to prevent vehicle theft.
+2. By integrating motion detection, GSM communication, and remote engine control, the system ensures enhanced security and quick response to potential theft attempts.
