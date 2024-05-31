@@ -54,8 +54,8 @@
 
 ## References:
 
-1. https://www.academia.edu/63372516/Detection_of_Automobile_Theft_and_Engine_Lo cking_Using_Arduino?from_sitemaps=true&version=2
-2. https://www.researchgate.net/publication/328293746_Anti-theft_Security_System_for_ Vehicles
+1. https://www.academia.edu/63372516/Detection_of_Automobile_Theft_and_Engine_Locking_Using_Arduino?from_sitemaps=true&version=2
+2. https://www.researchgate.net/publication/328293746_Anti-theft_Security_System_for_Vehicles
 3. http://www.ijirset.com/upload/2019/march/117_REMOTE_RMK.pdf
 4. http://proceeding.conferenceworld.in/BIT_30_Mar_2019/14BvDayVXaGB337.pd
 5. https://www.ijrpr.com/uploads/V2ISSUE3/IJRPR289.pdf
