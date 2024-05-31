@@ -36,6 +36,10 @@
 1. Theft Detection Alert: PIR Motion Sensor detects movement. The GSM module sends an alert SMS to the registered mobile number.
 2. Owner Response: The owner receives the theft alert message. Sends a command SMS back to the GSM module to lock the engine.
 
+## Interfacing of the overall system:
+
+<img width="775" alt="vehicleTheft" src="https://github.com/janhavikale06/VehicleTheftAlert/assets/81229872/e4974a0d-dbdf-439b-96e0-3d49a026ab04">
+
 ## Advantages:
 
 1. Real-time theft detection and alert system.
@@ -44,5 +48,14 @@
 4. Audible alarm deters thieves and attracts attention from bystanders.
 
 ## Conclusion:
+
 1. The Vehicle Theft Alert and Engine Lock System utilizing ARM7 is an effective solution to prevent vehicle theft.
 2. By integrating motion detection, GSM communication, and remote engine control, the system ensures enhanced security and quick response to potential theft attempts.
+
+## References:
+
+1. https://www.academia.edu/63372516/Detection_of_Automobile_Theft_and_Engine_Lo cking_Using_Arduino?from_sitemaps=true&version=2
+2. https://www.researchgate.net/publication/328293746_Anti-theft_Security_System_for_ Vehicles
+3. http://www.ijirset.com/upload/2019/march/117_REMOTE_RMK.pdf
+4. http://proceeding.conferenceworld.in/BIT_30_Mar_2019/14BvDayVXaGB337.pd
+5. https://www.ijrpr.com/uploads/V2ISSUE3/IJRPR289.pdf
